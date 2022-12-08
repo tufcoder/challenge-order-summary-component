@@ -1,0 +1,41 @@
+:root {
+  --black: #000;
+  --white: #FFF;
+}
+
+html {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+}
+
+body * {
+  font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-size: 1rem;
+  color: var(--white);
+  background-color: var(--black);
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
