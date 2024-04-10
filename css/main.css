@@ -14,7 +14,9 @@ html {
   -moz-box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
@@ -123,7 +125,8 @@ img {
   background-color: var(--blue-400);
 }
 
-@media (max-width: 440px) {
+/* 440px */
+@media (max-width: 27.5rem) {
   body {
     padding: 70px 20px;
   }
