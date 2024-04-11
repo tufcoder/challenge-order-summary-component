@@ -82,8 +82,10 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
+  border-radius: .5rem;
+  padding: 1rem 20px;
   width: 100%;
+  background-color: var(--blue-200);
 }
 
 .plan-wrapper a {
